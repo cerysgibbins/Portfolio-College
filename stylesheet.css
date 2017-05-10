@@ -1,0 +1,134 @@
+html, body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+body {
+	background: white url('images/bg3.jpg') fixed no-repeat  top right;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto; 
+}
+
+#page {
+	width: 620px;
+	background: #a0d6e0;
+	margin: 28px 0 0 14px;
+	min-height: 90%;
+	padding:21px;
+	color: #000000;
+	border-top-right-radius: 28px 28px;
+	border-bottom-left-radius: 28px 28px;
+	opacity: 0.9;
+	filter: alpha(opacity=90); /* - MS property */ 
+}
+
+#me {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+h1 a {
+	display: block;
+	background: transparent url('images/logo.png') no-repeat top left;
+	width: 300px;
+	height: 94px;
+	text-indent: -9999px;
+}
+
+#menu {
+	width: 562px;
+	position: relative;
+	margin: 0 0 21px -21px;
+	height: 30px;
+	padding-left:100px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;	
+	background: #1aa9c7;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 8px 30px;
+	font-size:12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-right: 2px solid white;	
+}
+
+#menu a:first-child {
+	border-left: 2px solid white;	
+}
+
+#menu a:hover {
+	background: #12324b;
+}
+
+#portfolio {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#portfolio li {
+	margin: 0 0 14px 0;
+	padding: 0 7px 0 0;
+	float: left;
+	width: 190px;
+}
+
+div.caption {
+	margin: 4px 0 0 0;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+p.clearleft {
+	clear: left;
+}
+
+#portfolio li img {
+	display: block;
+	box-shadow: 3px 3px #9999CC;
+	border: 0;
+}
+
+#contact {
+	border-collapse: collapse;
+	width: auto;
+}	
+
+#contact th {
+	width: 100px;
+	text-align: left;
+}
+
+#contact td {
+	width: 200px;
+}
+
+#contact th, #contact td {
+	border-top: 1px dashed white;
+	padding: 5px 0;
+}
+
+#contact tr:first-child th, #contact tr:first-child td {
+	border-top: none;
+}
+
+/* changes colour of hyperlink */
+p a, td a { 
+	color: white;
+	font-weight: bold;
+}
+
+p a:hover, td a:hover {
+	color: #6600CC;
+}

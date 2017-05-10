@@ -1,0 +1,38 @@
+html, body {
+	height: 98%;
+	margin: 5px;
+	padding: 0;	
+}
+
+#header h1 { 
+	text-indent: -9999px; /* -- hides the original text --*/
+	width: 300px;
+	height: 94px;
+	margin: 200px auto 50px auto;
+}
+
+h1 {
+	background: transparent url('images/logo.png') no-repeat;
+}
+
+body {
+	border: double;
+	min-height: 90%;
+}
+
+
+#hpmenu a {
+	margin: 80px auto;
+	display: block;
+	background: transparent url('images/enterButton.png') no-repeat top left;
+	width: 184px;
+	height: 62px;
+	text-indent: -9999px;
+}
+
+#hpmenu a:hover {
+	background: transparent url('images/enterButton2.png') no-repeat top left;
+}
+
+
+
